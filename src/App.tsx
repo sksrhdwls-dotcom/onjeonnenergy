@@ -437,22 +437,22 @@ function Contact() {
         <h2 className="text-center text-3xl md:text-[2.2rem] font-extrabold mb-4 text-white">성공적인 인프라 구축의 시작</h2>
         <p className="text-center text-[#D1D9E6] mb-[60px] text-lg">공공기관, 지자체, 산업단지 및 데이터센터 사업자 여러분의 문의를 기다립니다.</p>
         
-        <form className="bg-white p-8 md:p-10 rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.2)] text-left" onSubmit={(e) => e.preventDefault()}>
+        <form action="https://formspree.io/f/moeayyon" method="POST" className="bg-white p-8 md:p-10 rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.2)] text-left">
           <div className="mb-5">
             <label htmlFor="company" className="block text-[#1B3D68] font-bold mb-2">기관/기업명</label>
-            <input type="text" id="company" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="소속을 입력해주세요." required />
+            <input type="text" id="company" name="company" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="소속을 입력해주세요." required />
           </div>
           <div className="mb-5">
             <label htmlFor="name" className="block text-[#1B3D68] font-bold mb-2">담당자 성함</label>
-            <input type="text" id="name" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="성함을 입력해주세요." required />
+            <input type="text" id="name" name="name" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="성함을 입력해주세요." required />
           </div>
           <div className="mb-5">
             <label htmlFor="email" className="block text-[#1B3D68] font-bold mb-2">이메일 주소</label>
-            <input type="email" id="email" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="회신 받으실 이메일을 입력해주세요." required />
+            <input type="email" id="email" name="email" className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans" placeholder="회신 받으실 이메일을 입력해주세요." required />
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block text-[#1B3D68] font-bold mb-2">문의 내용</label>
-            <textarea id="message" rows={5} className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans resize-y" placeholder="진행 중인 프로젝트나 필요하신 솔루션에 대해 자세히 적어주시면 더 정확한 답변이 가능합니다." required></textarea>
+            <textarea id="message" name="message" rows={5} className="w-full p-3.5 border border-gray-300 rounded text-base text-black focus:outline-none focus:border-[#52B3D5] focus:ring-2 focus:ring-[#52B3D5]/30 font-sans resize-y" placeholder="진행 중인 프로젝트나 필요하신 솔루션에 대해 자세히 적어주시면 더 정확한 답변이 가능합니다." required></textarea>
           </div>
           <button type="submit" className="w-full bg-[#52B3D5] text-white py-4 px-6 text-lg font-bold rounded hover:bg-[#409bb9] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg shadow-[#52B3D5]/30">
             문의 제출하기

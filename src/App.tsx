@@ -95,10 +95,10 @@ function BrandStory() {
         
         {/* Top Banner Image */}
         <div className="w-full h-[250px] md:h-[450px] rounded-2xl overflow-hidden mb-10 md:mb-16 shadow-sm relative group">
-          <img src="/KakaoTalk_20260818_153221980_04.png" alt="온전에너지 전경" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s]" />
+          <img src="/brand.png" alt="온전에너지 전경" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s]" />
         </div>
 
-        <div className="space-y-12 md:space-y-16 text-[#444] leading-relaxed break-keep max-w-[1000px] mx-auto">
+        <div className="space-y-12 md:space-y-16 text-[#444] leading-relaxed break-keep max-w-[1000px] mx-auto mt-4">
           {/* Main Story */}
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-[#1B3D68] mb-4">단순한 설비를 넘어, 멈추지 않는 산업의 연속성을 설계합니다.</h3>
@@ -108,19 +108,14 @@ function BrandStory() {
           </div>
 
           {/* Name Meaning */}
-          <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-stretch">
-            <div className="rounded-xl overflow-hidden h-[250px] md:h-auto shadow-sm">
-              <img src="/KakaoTalk_20260818_153221980_02.png" alt="온전에너지 발전소 지붕" className="w-full h-full object-cover" />
-            </div>
-            <div className="bg-[#F8F9FA] p-6 md:p-8 rounded-xl border border-gray-200 text-lg md:text-xl flex flex-col justify-center">
-              <h3 className="text-xl md:text-2xl font-extrabold text-[#1B3D68] mb-4 flex items-center gap-2">
-                <span className="text-[#52B3D5]">ON-全</span> '온전'의 의미
-              </h3>
-              <p>
-                우리의 이름 '온전'은 항상 전원이 켜져 있는 상태를 뜻하는 <strong className="text-[#1B3D68]">"ON"</strong>과 완전함을 뜻하는 <strong className="text-[#1B3D68]">"전(全)"</strong>의 합성어입니다.<br className="hidden md:block" />
-                본래의 바탕이나 상태가 유지되어 결함이 없음을 뜻하는 우리말처럼, 멈추지 않는 시스템과 안정적인 인프라를 통해 고객의 운영 리스크를 줄이고 가장 '온전한' 에너지를 제공하겠습니다.
-              </p>
-            </div>
+          <div className="bg-[#F8F9FA] p-6 md:p-8 rounded-xl border border-gray-200 text-lg md:text-xl flex flex-col justify-center">
+            <h3 className="text-xl md:text-2xl font-extrabold text-[#1B3D68] mb-4 flex items-center gap-2">
+              <span className="text-[#52B3D5]">ON-全</span> '온전'의 의미
+            </h3>
+            <p>
+              우리의 이름 '온전'은 항상 전원이 켜져 있는 상태를 뜻하는 <strong className="text-[#1B3D68]">"ON"</strong>과 완전함을 뜻하는 <strong className="text-[#1B3D68]">"전(全)"</strong>의 합성어입니다.<br className="hidden md:block" />
+              본래의 바탕이나 상태가 유지되어 결함이 없음을 뜻하는 우리말처럼, 멈추지 않는 시스템과 안정적인 인프라를 통해 고객의 운영 리스크를 줄이고 가장 '온전한' 에너지를 제공하겠습니다.
+            </p>
           </div>
 
           {/* Mission & Vision Grid */}
@@ -195,7 +190,7 @@ function Services() {
         {/* Card 1 */}
         <div className="bg-white rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.04)] border border-gray-100 overflow-hidden hover:border-[#52B3D5]/50 transition-colors duration-300 flex flex-col group">
           <div className="h-[200px] md:h-[300px] w-full overflow-hidden">
-            <img src="/KakaoTalk_20260818_153221980_01.png" alt="재난안전 예측·예방" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+            <img src="https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&q=80&w=800" alt="재난안전 예측·예방" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
           </div>
           <div className="p-8 md:p-10 border-b border-gray-100 bg-gradient-to-r from-[#F8F9FA] to-white">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
@@ -232,7 +227,7 @@ function Services() {
         {/* Card 2 */}
         <div className="bg-white rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.04)] border border-gray-100 overflow-hidden hover:border-[#52B3D5]/50 transition-colors duration-300 flex flex-col group">
           <div className="h-[200px] md:h-[300px] w-full overflow-hidden">
-            <img src="/KakaoTalk_20260818_153221980_03.png" alt="청정에너지 공급" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800" alt="청정에너지 공급" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
           </div>
           <div className="p-6 md:p-10 border-b border-gray-100 bg-gradient-to-r from-[#F8F9FA] to-white">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4 md:mb-6">
@@ -269,7 +264,7 @@ function Services() {
         {/* Card 3 */}
         <div className="bg-white rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.04)] border border-gray-100 overflow-hidden hover:border-[#52B3D5]/50 transition-colors duration-300 flex flex-col group">
           <div className="h-[200px] md:h-[300px] w-full overflow-hidden">
-            <img src="/KakaoTalk_20260818_153221980_05.png" alt="통합 구조 설계" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800" alt="통합 구조 설계" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
           </div>
           <div className="p-6 md:p-10 border-b border-gray-100 bg-gradient-to-r from-[#F8F9FA] to-white">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4 md:mb-6">
@@ -368,6 +363,10 @@ function Insights() {
         <p className="text-[#666666] text-lg font-medium">온전에너지의 시각으로 바라본 글로벌 에너지 트렌드와 프로젝트 현황을 전해드립니다.</p>
       </div>
 
+      <div className="w-full h-[250px] md:h-[400px] rounded-2xl overflow-hidden mb-12 shadow-sm relative group">
+        <img src="/energy.png" alt="에너지 동향" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {articles.map((article, idx) => (
           <button 
@@ -430,7 +429,7 @@ function Contact() {
     <section id="contact" className="relative bg-[#1B3D68] text-white py-[100px] px-5 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/KakaoTalk_20260818_153221980.png" alt="Contact Background" className="w-full h-full object-cover opacity-30 mix-blend-luminosity" />
+        <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=2000" alt="Contact Background" className="w-full h-full object-cover opacity-30 mix-blend-luminosity" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#1B3D68]/80 to-[#1B3D68]"></div>
       </div>
 
